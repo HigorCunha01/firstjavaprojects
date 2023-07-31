@@ -1,0 +1,11 @@
+package util;
+
+public class CalculatorDollar {
+	
+
+	
+	public static double currencyConverter(double dollarPrice, double dollarBought) {
+	return dollarPrice * 1.06 * dollarBought;
+	}
+	
+}
